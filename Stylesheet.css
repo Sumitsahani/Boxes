@@ -1,0 +1,78 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/characters-iron-man-captain-america-thor-wallpaper-thumb.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+    margin: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    background-color: #e74c3c;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.box:nth-child(1):hover {
+    background-image: url("./img/iron-man-mask-portrait-logo-tattoo-poster-pixel-art-illustration-voxel-graphic-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35% 65% 49% 51% / 73% 61% 39% 27%;
+}
+
+.box:nth-child(2):hover {
+    background-image: url("./img/download.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35% 65% 49% 51% / 73% 61% 39% 27%;
+}
+
+.box:nth-child(3):hover {
+    transform: scale(2);
+    background-color: #659d7c;
+    border-radius: 50%;
+    margin: 3rem;
+    background-image: url("./img/Captain-america.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35% 65% 49% 51% / 73% 61% 39% 27%;
+}
+
+.box:nth-child(4):hover {
+    background-image: url("./img/thor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35% 65% 49% 51% / 73% 61% 39% 27%;
+}
+
+.box:nth-child(5):hover {
+    background-image: url("./img/hulk.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 35% 65% 49% 51% / 73% 61% 39% 27%;
+}
